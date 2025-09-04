@@ -103,7 +103,7 @@ class _WorkoutViewState extends State<WorkoutView> {
                         const SizedBox(height: 8),
                         // Dynamic Image
                         SizedBox(
-                          height: 157,
+                          height: 144,
                           child: Image.asset(currentWorkout.imagePath),
                         ),
                         const SizedBox(height: 8),

@@ -3,6 +3,7 @@ import 'package:gym_quest/view/profile_view.dart';
 import '../controller/home_controller.dart';
 import 'workout_view.dart';
 import 'admin_view.dart';
+import 'login_view.dart';
 
 class HomeView extends StatelessWidget {
   final HomeController controller = HomeController();
@@ -53,6 +54,16 @@ class HomeView extends StatelessWidget {
                 );
               },
               child: Text('Go to Profile View'),
+            ),
+            SizedBox(height: 20),
+            ElevatedButton(
+              onPressed: () {
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(builder: (context) => const LoginView()),
+                );
+              },
+              child: Text('Go to Login View'),
             ),
           ],
         ),

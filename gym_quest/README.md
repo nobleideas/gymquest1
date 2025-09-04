@@ -35,3 +35,5 @@ merged with main.
 
 6. Updated Homeview with links to AdminView, WorkoutView, and ProfileView(s).
 Created Workout Controller. Created Gym, User, and Workout Classes.
+
+7. Created a Login View
