@@ -28,3 +28,10 @@ flutter create gym_quest.
 
 3. The README was updated and the app setup branch was 
 merged with main.
+
+4. Model, View and Controller directories were added to our lib folder
+
+5. Homeview, HomeController, and User Class were added
+
+6. Updated Homeview with links to AdminView, WorkoutView, and ProfileView(s).
+Created Workout Controller. Created Gym, User, and Workout Classes.
