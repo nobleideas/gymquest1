@@ -7,11 +7,7 @@ class QrLocationView extends StatefulWidget {
 
 class _QrLocationViewState extends State<QrLocationView> {
   bool _showSecondaryButton = false;
-<<<<<<< HEAD
-  final TextEditingController _textController = TextEditingController();
-=======
->>>>>>> 0e51790 (save local changes before rebase)
-
+ 
   void _onPrimaryButtonClick() {
     setState(() {
       _showSecondaryButton = true;

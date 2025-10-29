@@ -2,10 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:gym_quest/model/exercise.dart';
 import 'package:provider/provider.dart';
 import 'view/home_view.dart';
-<<<<<<< HEAD
-import 'dart:io';
-=======
->>>>>>> 0e51790 (save local changes before rebase)
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();

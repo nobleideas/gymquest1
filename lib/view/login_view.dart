@@ -1,8 +1,5 @@
 import 'package:flutter/material.dart';
-<<<<<<< HEAD
 import 'package:gym_quest/services/api_service.dart';
-=======
->>>>>>> 0e51790 (save local changes before rebase)
 
 class LoginView extends StatefulWidget {
   const LoginView({super.key});
@@ -18,19 +15,15 @@ class _LoginViewState extends State<LoginView> {
 
   void _onLoginPressed() {
     final email = _emailController.text;
-<<<<<<< HEAD
     final password = _passwordController.text;
 
     loginUser();
-=======
->>>>>>> 0e51790 (save local changes before rebase)
 
     ScaffoldMessenger.of(context).showSnackBar(
       SnackBar(content: Text('Logging in with $email')),
     );
   }
 
-<<<<<<< HEAD
   void loginUser() async {
     final result = await ApiService.login("jacob", "password123");
     if (result.containsKey("user_id")) {
@@ -40,8 +33,6 @@ class _LoginViewState extends State<LoginView> {
     }
     }
 
-=======
->>>>>>> 0e51790 (save local changes before rebase)
   void _onCreateAccountPressed() {
     // Navigate to your create account page here
     ScaffoldMessenger.of(context).showSnackBar(
